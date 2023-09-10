@@ -66,14 +66,6 @@ void getPixelsP3(image& picture, ifstream& fin);
 void writeFile(string type, ofstream& fout, image& picture);
 void writeFileGray(string type, ofstream& fout, image& picture);
 
-//void brighten(int briValue, image& picture);
-//void negit(image& picture);
-//void gScale(image& picture);
-//void contrast(image& picture);
-//void sharpen(image& picture);
-//void smooth(image& picture);
-
-//int clamp(int number);
 void cleanUp(bool** arr1, image picture);
 
 void bucketFill(image& picture, color newColor, color ogColor, int row, int col, bool**& adjPixels);
